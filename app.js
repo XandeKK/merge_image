@@ -13,7 +13,7 @@ document.getElementById('files').addEventListener('change', (evt)=> {
 		div.appendChild(img);
 		div.appendChild(input);
 
-		div.className = 'relative';
+		div.className = 'relative mx-auto';
 
 		const reader = new FileReader();
 
